@@ -155,7 +155,7 @@ I have tried it with both. The traninalion method : @RequestMapping and method (
 ## 3. The Minor Errors
 There are two minor errors inside this application
 
-The first error is when trying to update the database through the web controller. Which led to another method to be use. More information by be found above  [1.4 Update Mobile Services Issue](####changing-mobile-service-issues). However the Contractor update is successfull
+The first error is when trying to update the database through the web controller. Which led to another method to be use. More information by be found above 1.4.1 [ Update Mobile Services Issue](####changing-mobile-service-issues). However the Contractor update is successfull
 
 The second is a "Request method 'GET' not supported" error for the Update,Delete & Add for the REST Controller.
 The code for these methods are inside the code, they just have not been tested
