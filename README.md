@@ -5,13 +5,13 @@ These controllers are:
   - REST
 # Table of Contents
 1. [Web Controller](##web-controller)
-1.1 [Add](###add-mobile-number)
-1.1.1 [Storage - Saving](####saving)
-1.2 [Get](###get-all-mobile-numbers)
-1.3 [Get with criteria](###get-all-mobile-number-with-criteria)
-1.4 [Update Mobile Services](###changing-mobile-service )
-1.5 [Mobile Number Format](####mobile-number-format)
-1.6 [Number Service Type](####number-service-type)
+1.1. [Add](###add-mobile-number)
+1.1.1. [Storage - Saving](####saving)
+1.2. [Get](###get-all-mobile-numbers)
+1.3. [Get with criteria](###get-all-mobile-number-with-criteria)
+1.4. [Update Mobile Services](###changing-mobile-service )
+1.5. [Mobile Number Format](####mobile-number-format)
+1.6. [Number Service Type](####number-service-type)
 
 2. [REST](##rest-controller)
 2.1 [Select All](###select-all-mobile-numbers)
@@ -21,7 +21,7 @@ These controllers are:
 3. [The Minor Errors](##the-minor-errors)
 
 4. [Thank you](#thank-you)
-5. 
+
 ### Prerequisite
 #### Run with Arguments
 ```
