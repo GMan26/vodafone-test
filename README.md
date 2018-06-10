@@ -1,21 +1,30 @@
 # Vodafone Test
-For this test there are 2 methods for this application to communite with the in-memory h2 database.
+For this test there are 2 methods for this application to communicate with the in-memory h2 database.
 These controllers are: 
   - Web
   - REST
 # Table of Contents
 1. [Web Controller](##web-controller)
 1.1. [Add](###add-mobile-number)
-1.1.1. [Storage - Saving](####saving)
+
+1.1.1 [Storage - Saving](####saving)
+
 1.2. [Get](###get-all-mobile-numbers)
+
 1.3. [Get with criteria](###get-all-mobile-number-with-criteria)
+
 1.4. [Update Mobile Services](###changing-mobile-service )
+
 1.5. [Mobile Number Format](####mobile-number-format)
+
 1.6. [Number Service Type](####number-service-type)
 
 2. [REST](##rest-controller)
+
 2.1 [Select All](###select-all-mobile-numbers)
+
 2.2 [Select with cretia](###select-mobile-number-with-creitra)
+
 2.2 [Add,Update & Delete](###add,update-&-delete)
 
 3. [The Minor Errors](##the-minor-errors)
