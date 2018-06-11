@@ -22,7 +22,7 @@ These controllers are:
 
 1.7. [Number Service Type](####number-service-type)
 
-2. [REST](##rest-controller)
+2. [REST Controller](##rest-controller)
 
 2.1 [Select All](###select-all-mobile-numbers)
 
