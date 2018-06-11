@@ -4,7 +4,7 @@ These controllers are:
   - Web
   - REST
 # Table of Contents
-1. [Web Controller](#web-controller)
+1. [Web Controller](#webcontroller)
 
 1.1. [Add](#add-mobile-number)
 
