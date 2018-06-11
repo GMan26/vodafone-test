@@ -4,33 +4,33 @@ These controllers are:
   - Web
   - REST
 # Table of Contents
-1. [Web Controller](##web-controller)
+1. [Web Controller](#web-controller)
 
-1.1. [Add](###add-mobile-number)
+1.1. [Add](#add-mobile-number)
 
-1.1.1. [Storage - Saving](####saving)
+1.1.1. [Storage - Saving](#saving)
 
-1.2. [Get](###get-all-mobile-numbers)
+1.2. [Get](#get-all-mobile-numbers)
 
-1.3. [Get with criteria](###get-all-mobile-number-with-criteria)
+1.3. [Get with criteria](#get-all-mobile-number-with-criteria)
 
-1.4. [Update Mobile Services](###changing-mobile-service )
+1.4. [Update Mobile Services](#changing-mobile-service )
 
-1.5. [Delete Mobile Services](###deleting-mobile-number )
+1.5. [Delete Mobile Services](#deleting-mobile-number )
 
-1.6. [Mobile Number Format](####mobile-number-format)
+1.6. [Mobile Number Format](#mobile-number-format)
 
-1.7. [Number Service Type](####number-service-type)
+1.7. [Number Service Type](#number-service-type)
 
-2. [REST Controller](##rest-controller)
+2. [REST Controller](#rest-controller)
 
-2.1 [Select All](###select-all-mobile-numbers)
+2.1 [Select All](#select-all-mobile-numbers)
 
-2.2 [Select with cretia](###select-mobile-number-with-creitra)
+2.2 [Select with cretia](#select-mobile-number-with-creitra)
 
-2.2 [Add,Update & Delete](###add,update-&-delete)
+2.2 [Add,Update & Delete](#add,update-&-delete)
 
-3. [The Minor Errors](##the-minor-errors)
+3. [The Minor Errors](#the-minor-errors)
 
 4. [Thank you](#thank-you)
 
@@ -154,7 +154,7 @@ I have tried it with both. The traninalion method : @RequestMapping and method (
 ## 3. The Minor Errors
 There are two minor errors inside this application
 
-The first error is when trying to update the database through the web controller. Which led to another method to be use. More information by be found above [ 1.4.1 Update Mobile Services Issue](####changing-mobile-service-issues). However the constructor update is successfull
+The first error is when trying to update the database through the web controller. Which led to another method to be use. More information by be found above [ 1.4.1 Update Mobile Services Issue](#changing-mobile-service-issues). However the constructor update is successfull
 
 The second is a "Request method 'GET' not supported" error for the Update,Delete & Add for the REST Controller.
 The code for these methods are inside the code, they just have not been tested
