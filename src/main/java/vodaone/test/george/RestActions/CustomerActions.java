@@ -60,7 +60,7 @@ public class CustomerActions {
 
 		for (int i = 0; i < StoreCustomerData.storeUserData.size(); i++) {
 			if(StoreCustomerData.storeUserData.get(i).msisdn.equals(msisdn)) {
-				StoreCustomerData.storeUserData.remove(i);
+				StoreCustomerData.storeUserData.remove(i);				
 			}
 			return StoreCustomerData.storeUserData.get(i).msisdn;
 		}

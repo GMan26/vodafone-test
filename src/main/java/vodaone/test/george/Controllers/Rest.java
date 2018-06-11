@@ -66,10 +66,10 @@ static StoreCustomerData SCD;
 	}
 		
 
-	
-	
-	@DeleteMapping("/customers/json/delete/{id}")
-	public ResponseEntity deleteCustomer(@PathVariable String msisdn) {
+	// finds, but does not delete from UserModel database,
+	// needs some editing from the CustomerActions, did not have time to complete it
+	@DeleteMapping("/customers/json/delete/{msisdn}")
+	public ResponseEntity deleteCustomer(@PathVariable("msisdn") String msisdn) {
 		
 		boolean userFound = false;
 		
@@ -77,8 +77,10 @@ static StoreCustomerData SCD;
 				for (int i = 0; i < StoreCustomerData.storeUserData.size(); i++) 
 				{
 					if(StoreCustomerData.storeUserData.get(i).msisdn.equals(msisdn)) {
-						StoreCustomerData.storeUserData.remove(i);
+						StoreCustomerData.storeUserData.remove(i);						
 						userFound = true;
+						return new ResponseEntity("Cusomer Found to be deleted" + msisdn, HttpStatus.ACCEPTED);
+						
 					} 
 				}
 			} while(userFound = false);
