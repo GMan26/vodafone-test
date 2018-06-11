@@ -88,12 +88,15 @@ If no mobile numbers exists in the database, it will return an http status code 
 
 ### 1.3 Get all Mobile Number withe criteria
 One may see the all the actions performed on the database 
+
 ![N|Solid](http://i68.tinypic.com/k15q4x.png)
+
 with the use of :
 ```
 http://localhost:8080/getMobileNumber?msisdn=35699999992
 ```
 ![N|Solid](http://i67.tinypic.com/23rwdhs.png)
+
 If no mobile numbers exists in the database, it will return a http status code 404
 
 ### 1.4 Changing Mobile Service 
@@ -113,14 +116,14 @@ Doing this is NOT advisded as this method would then change the auto_incremented
 Once the site is visited, it will delete the mobile number from the database
 If no mobile number is found, it will return a status error 404
 
-#### 1.6 Mobile Number Format
+### 1.6 Mobile Number Format
 The format for the mobile numbers uses a independently called 
 ```
 com.googlecode.libphonenumber
 ```
 This will automatically format the mobile number to your country code
 If the mobile number entered does not corresponds to the format an error will display to re-enter the value
-#### 1.7 Number Service Type
+### 1.7 Number Service Type
 These Service Type's are created with the use of Enums, as instructed
 ```
 MOBILE_PREPAID
@@ -151,7 +154,7 @@ I have tried it with both. The traninalion method : @RequestMapping and method (
 ## 3. The Minor Errors
 There are two minor errors inside this application
 
-The first error is when trying to update the database through the web controller. Which led to another method to be use. More information by be found above 1.4.1 [ Update Mobile Services Issue](####changing-mobile-service-issues). However the Contractor update is successfull
+The first error is when trying to update the database through the web controller. Which led to another method to be use. More information by be found above [ 1.4.1 Update Mobile Services Issue](####changing-mobile-service-issues). However the constructor update is successfull
 
 The second is a "Request method 'GET' not supported" error for the Update,Delete & Add for the REST Controller.
 The code for these methods are inside the code, they just have not been tested
