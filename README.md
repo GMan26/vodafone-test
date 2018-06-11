@@ -93,7 +93,7 @@ One may see the all the actions performed on the database
 
 with the use of :
 ```
-http://localhost:8080/getMobileNumber?msisdn=35699999992
+http://localhost:8080/getMobileNumber?msisdn=35699999902
 ```
 ![N|Solid](http://i67.tinypic.com/23rwdhs.png)
 
