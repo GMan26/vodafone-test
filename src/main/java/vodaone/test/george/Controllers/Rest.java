@@ -79,7 +79,7 @@ static StoreCustomerData SCD;
 					if(StoreCustomerData.storeUserData.get(i).msisdn.equals(msisdn)) {
 						StoreCustomerData.storeUserData.remove(i);						
 						userFound = true;
-						return new ResponseEntity("Cusomer Found to be deleted" + msisdn, HttpStatus.ACCEPTED);
+						return new ResponseEntity("Cusomer Found to be deleted " + msisdn, HttpStatus.ACCEPTED);
 						
 					} 
 				}
