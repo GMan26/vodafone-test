@@ -113,10 +113,6 @@ Doing this is NOT advisded as this method would then change the auto_incremented
 Once the site is visited, it will delete the mobile number from the database
 If no mobile number is found, it will return a status error 404
 
-  - Type some Markdown on the left
-  - See HTML in the right
-  - Magic
-
 #### 1.6 Mobile Number Format
 The format for the mobile numbers uses a independently called 
 ```
